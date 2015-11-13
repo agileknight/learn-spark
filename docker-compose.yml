@@ -1,0 +1,8 @@
+spark:
+  image: sequenceiq/spark:1.5.1
+  command: bash
+  ports:
+    - 8088:8088
+    - 8042:8042
+  hostname: sandbox 
+
